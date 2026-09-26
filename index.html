@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pizzaria Artesanal — Pedras de Fogo</title>
+<meta name="description" content="Pizzaria Artesanal — pizzas de fermentação lenta e forno a lenha em Pedras de Fogo - PB. Peça online.">
+<link rel="canonical" href="https://rayaneacademico.github.io/pizzariaartesanal/">
+<meta property="og:title" content="Pizzaria Artesanal">
+<meta property="og:description" content="Pizzas de fermentação lenta e forno a lenha em Pedras de Fogo - PB.">
+<meta property="og:url" content="https://rayaneacademico.github.io/pizzariaartesanal/">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="navrow">
+    <a class="brandmark" href="#inicio" aria-label="Pizzaria Artesanal, início"><span class="brand-symbol" aria-hidden="true">A</span><span class="brand">Pizzaria Artesanal<span class="brand-caption">PEDRAS DE FOGO · PB</span></span></a>
+    <nav class="links"><a href="#cardapio">Cardápio</a><a href="#bebidas">Bebidas</a><a href="#sobre">A Pizzaria</a><a href="#contato">Contato</a></nav>
+    <button class="cart-button" id="cartBtn" aria-label="Abrir carrinho">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.1 10.1a2 2 0 0 0 2 1.6h8.5a2 2 0 0 0 1.9-1.4L21 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span class="cart-label">Sacola</span>
+      <span class="badge" id="cartBadge" style="display:none">0</span>
+    </button>
+  </div>
+</header>
+
+<section class="hero" id="inicio">
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <div class="hero-kicker"><span></span> SABOR ARTESANAL EM PEDRAS DE FOGO</div>
+      <h1>Pizza boa tem<br><em>tempo e carinho.</em></h1>
+      <p>Fermentação lenta, forno a lenha e receitas feitas para compartilhar. Seu próximo momento favorito começa à mesa.</p>
+      <div class="hero-actions"><a class="btn hero-cta" href="#cardapio">Ver o cardápio <span aria-hidden="true">→</span></a><a class="hero-secondary" href="#sobre">Conheça a pizzaria</a></div>
+      <div class="hero-details"><span><b>•</b> Ter a dom</span><span>18h às 23h30</span><i></i><span>Pedras de Fogo — PB</span></div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-halo"></div>
+      <img src="assets/pizza-hawaii.png" alt="Pizza artesanal recém-saída do forno">
+      <div class="hero-stamp"><span>FEITA</span><strong>com<br>calma</strong><span>E SERVIDA QUENTINHA</span></div>
+      <div class="hero-leaf leaf-one">✳</div><div class="hero-leaf leaf-two">✳</div>
+    </div>
+  </div>
+  <div class="hero-bottom"><span>FERMENTAÇÃO LENTA</span><i></i><span>FORNO A LENHA</span><i></i><span>FEITA NA HORA</span></div>
+</section>
+
+<section class="section menu-section" id="cardapio">
+  <div class="section-heading"><div><div class="section-kicker">DA NOSSA COZINHA PARA A SUA MESA</div><h2>Feita para <em>compartilhar.</em></h2></div><p class="lede">Escolha sua pizza, personalize os detalhes e deixe o resto com a gente.</p></div>
+  <div class="menu-grid" id="menuGrid"></div>
+</section>
+
+<section class="section drinks-section" id="bebidas">
+  <div class="section-heading"><div><div class="section-kicker">O PAR PERFEITO</div><h2>Algo para <em>beber.</em></h2></div><p class="lede">Uma seleção geladinha para acompanhar cada pedaço.</p></div>
+  <div class="drink-grid" id="drinkGrid"></div>
+</section>
+
+<section class="about" id="sobre">
+  <div class="wrap">
+    <div>
+      <div class="section-kicker">UM POUCO SOBRE NÓS</div><h2>Feita de bons<br>encontros.</h2>
+      <p>Aqui, cada pizza começa com uma massa de fermentação lenta e termina no forno a lenha. A gente acredita que comida boa fica ainda melhor quando é compartilhada, sem pressa e com quem a gente gosta.</p>
+      <div class="hours-list">
+        <div><span>Terça a Domingo</span><span>18h — 23h30</span></div>
+        <div><span>Segunda-feira</span><span>Fechado</span></div>
+      </div>
+    </div>
+    <div class="contact-box" id="contato">
+      <h3 style="margin-top:0">Contato &amp; Localização</h3>
+      <div class="line">📍 Rua das Cinzas, 130 — Centro, Pedras de Fogo - PB</div>
+      <div class="line">📞 (83) 3277-0451</div>
+      <div class="line">📱 WhatsApp (83) 99123-4567</div>
+      <div class="line">✉️ contato@pizzadelluna.com.br</div>
+    </div>
+  </div>
+</section>
+
+<footer><a class="footer-brand" href="#inicio">Pizzaria Artesanal</a><span>Pizza artesanal, bons encontros e forno aceso em Pedras de Fogo — PB.</span><small>© Pizzaria Artesanal. Todos os direitos reservados.</small></footer>
+
+<div class="toast" id="toast"><img src="assets/bell.webp" alt=""><span id="toastMsg">Produto adicionado!</span></div>
+
+<div class="overlay" id="prodOverlay"><div class="modal" id="prodModal"></div></div>
+<div class="overlay" id="drawerOverlay"></div>
+<div class="drawer" id="cartDrawer">
+  <div class="drawer-head"><h3 style="margin:0">Seu Carrinho</h3><button class="iconbtn" id="closeDrawer">✕</button></div>
+  <div class="drawer-body" id="drawerBody"></div>
+  <div class="drawer-foot" id="drawerFoot"></div>
+</div>
+<div class="overlay" id="checkoutOverlay"><div class="modal" id="checkoutModal" style="max-width:480px"></div></div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
